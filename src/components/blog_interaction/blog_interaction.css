@@ -1,0 +1,53 @@
+.interaction{
+    padding-top: 55px;
+}
+
+.interaction__head{
+    color: var(--color-darkColor);
+    font-family: var(--Font-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.interaction__date{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.interaction__date1{
+    color: var(--color-darkColor);
+    font-family: var(--Font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.interaction__date2{
+    color: var(--color-grey);
+    font-family: var(--Font-family);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.interaction__about{
+    color: var(--color-darkColor);
+    font-family: var(--Font-family);
+    padding-top: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.line{
+    padding-top: 29px;
+    padding-right: 210px;
+}

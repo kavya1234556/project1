@@ -1,0 +1,47 @@
+
+.main{
+    margin: auto;
+    max-width: 855px;
+}
+
+.mainHeading{
+    max-width: 506px;
+    padding-top: 78px;
+    color: var(--dark-color, #21243D);
+    font-family: var(--Font-family);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    gap: 17px;
+}
+
+.button{
+    border-radius: 14px;
+    background-color: var(--color-pink);
+    width: 62px;
+    height: 25px;
+    flex-shrink: 0;
+    color: white;
+    border: none;
+
+}
+
+.header__3{
+    font-family: var(--Font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 23px;
+}
+
+.image1{
+    padding-top: 46px;
+    max-width: 681px;
+}

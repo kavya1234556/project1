@@ -1,0 +1,40 @@
+
+.NavList{
+    display:flex;
+    padding: 27px;
+    justify-content: end;
+    gap: 33px;
+}
+
+.NavList__link{
+    color: var(--color-darkColor);
+    text-decoration: none;
+}
+.NavIcon{
+    display: none;
+}
+
+
+@media(max-width: 375px){
+    .Navbar{
+        position: relative;
+        display: block;
+    }
+    .NavList{
+        display: none;
+        background-color: #333;
+        width: 100%;
+    }
+    
+    .NavIcon{
+
+        /* padding-top: 27px; */
+        display:block;
+        /* display: flex;
+        justify-content: flex-end; */
+        position: absolute;
+        top: 27px;
+        right: 0;
+    }
+
+}

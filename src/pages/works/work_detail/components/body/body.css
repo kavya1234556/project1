@@ -1,0 +1,39 @@
+.mainBody{
+    margin: auto;
+    max-width: 855px;
+}
+
+.mainBody__1{
+    padding-top: 54px;
+    color: var(--color-darkColor);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+    font-family: var(--Font-family);
+}
+
+.mainBody__2{
+    color: var(--color-darkColor);
+    font-family: var(--Font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.mainBody__3{
+    font-family: var(--Font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.image2{
+    padding-top: 30px;
+}
+
+.image3{
+    padding-top: 27px;
+}
