@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState } from 'react';
 // import './App.css'
-import Header from './components/header'
-import {Routes, Route} from "react-router-dom";
-import Home from './pages/home'
-import Blog from './pages/blog'
-import Work from './pages/works'
-import Contact from './pages/contact'
+import { Route, Routes } from "react-router-dom";
+import Header from './components/header';
+import Blog from './pages/blog';
+import Contact from './pages/contact';
+import Home from './pages/home';
+import Work from './pages/works';
 import Workdetail from './pages/works/work_detail';
 function App() {
   const [count, setCount] = useState(0)
